@@ -276,7 +276,7 @@ inline u64 CheckSum<u64>(u8 const *packet, uptr count)
 
 	for (uptr index = 0; index < count; ++index) sum += packet[index];
 
-    return sum;
+	return sum;
 }
 
 }
